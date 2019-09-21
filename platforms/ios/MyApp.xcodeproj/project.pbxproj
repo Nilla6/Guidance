@@ -23,6 +23,10 @@
 		444DC471F15346CE9C7C0AF6 /* IONAssetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CDB73E98B47A5A58E8BFC /* IONAssetHandler.m */; };
 		2AB18A71A55D4708B0E02E18 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AB7D0ABFEC41C6B300D6F2 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D28BAC9D723246B88900514E /* CDVIonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED2B3727584AC0922FA844 /* CDVIonicKeyboard.m */; };
+		1BE484268E194432BDEBC2DD /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD58C7042EC4AE3B4B41F73 /* SQLitePlugin.m */; };
+		025B92B7CCED42059EF3D40E /* PSPDFThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B617556BDFF49928268A25A /* PSPDFThreadSafeMutableDictionary.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F2B87803E61F42769D195DC0 /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = 563823002FD847C3BBEF1943 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-w -DSQLITE_THREADSAFE=1 -DSQLITE_DEFAULT_SYNCHRONOUS=3 -DSQLITE_DEFAULT_MEMSTATUS=0 -DSQLITE_OMIT_DECLTYPE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_SHARED_CACHE -DSQLITE_TEMP_STORE=2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_DEFAULT_PAGE_SIZE=4096"; }; };
+		0217FC07874E43F2981E5C7B /* CDVOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 404050ED13CC4967B704BAEC /* CDVOrientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +93,14 @@
 		82AB7D0ABFEC41C6B300D6F2 /* WebKit.framework */ = {isa = PBXFileReference; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		2FED2B3727584AC0922FA844 /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.m"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		6A5498B08A1F427EA8BA8813 /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.h"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DBD58C7042EC4AE3B4B41F73 /* SQLitePlugin.m */ = {isa = PBXFileReference; name = "SQLitePlugin.m"; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		8B617556BDFF49928268A25A /* PSPDFThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; name = "PSPDFThreadSafeMutableDictionary.m"; path = "cordova-sqlite-storage/PSPDFThreadSafeMutableDictionary.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		563823002FD847C3BBEF1943 /* sqlite3.c */ = {isa = PBXFileReference; name = "sqlite3.c"; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BBD50E8E3304693A9EE6407 /* SQLitePlugin.h */ = {isa = PBXFileReference; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		173B1565FAE242F2B119FE80 /* PSPDFThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; name = "PSPDFThreadSafeMutableDictionary.h"; path = "cordova-sqlite-storage/PSPDFThreadSafeMutableDictionary.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E6577C77A7AF44E6965C1D9E /* sqlite3.h */ = {isa = PBXFileReference; name = "sqlite3.h"; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		404050ED13CC4967B704BAEC /* CDVOrientation.m */ = {isa = PBXFileReference; name = "CDVOrientation.m"; path = "cordova-plugin-screen-orientation/CDVOrientation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		982902EC2D4E4DF9974F3242 /* CDVOrientation.h */ = {isa = PBXFileReference; name = "CDVOrientation.h"; path = "cordova-plugin-screen-orientation/CDVOrientation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +225,14 @@
 				567C9F0666F242CC83948EA6 /* IONAssetHandler.h */,
 				2FED2B3727584AC0922FA844 /* CDVIonicKeyboard.m */,
 				6A5498B08A1F427EA8BA8813 /* CDVIonicKeyboard.h */,
+				DBD58C7042EC4AE3B4B41F73 /* SQLitePlugin.m */,
+				8B617556BDFF49928268A25A /* PSPDFThreadSafeMutableDictionary.m */,
+				563823002FD847C3BBEF1943 /* sqlite3.c */,
+				1BBD50E8E3304693A9EE6407 /* SQLitePlugin.h */,
+				173B1565FAE242F2B119FE80 /* PSPDFThreadSafeMutableDictionary.h */,
+				E6577C77A7AF44E6965C1D9E /* sqlite3.h */,
+				404050ED13CC4967B704BAEC /* CDVOrientation.m */,
+				982902EC2D4E4DF9974F3242 /* CDVOrientation.h */,
 			);
 			name = Plugins;
 			path = "MyApp/Plugins";
@@ -346,6 +366,10 @@
 				62839E3627BB4E99A924E40A /* CDVWKProcessPoolFactory.m in Sources */,
 				444DC471F15346CE9C7C0AF6 /* IONAssetHandler.m in Sources */,
 				D28BAC9D723246B88900514E /* CDVIonicKeyboard.m in Sources */,
+				1BE484268E194432BDEBC2DD /* SQLitePlugin.m in Sources */,
+				025B92B7CCED42059EF3D40E /* PSPDFThreadSafeMutableDictionary.m in Sources */,
+				F2B87803E61F42769D195DC0 /* sqlite3.c in Resources */,
+				0217FC07874E43F2981E5C7B /* CDVOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
